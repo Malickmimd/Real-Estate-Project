@@ -1,4 +1,6 @@
 export const colors = {
+    primary: '#5843E4',
+    secondary: '#8186A0',
     dark: {
         Appbackground: '#0D1520',
         Subtlebackground: '#111927',

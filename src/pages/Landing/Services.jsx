@@ -1,5 +1,5 @@
 import './Services.css'
-import john from '../../utils/assets/Asset2.png'
+import ServiceAsset from '../../utils/assets/Asset2.png'
 import ServiceCard from '../../components/Card/ServiceCard';
 import { services } from '../../utils/constant';
 
@@ -8,7 +8,7 @@ const Services = () => {
         <div className='services' id='services'>
             <div className='container'>
                 <div className='div-Image' >
-                    <img src={john} alt='john' />
+                    <img src={ServiceAsset} alt='ServiceAsset' />
                 </div>
                 <div className='col-2'>
                     <h2>Des biens abordables et accessibles en un clic</h2>

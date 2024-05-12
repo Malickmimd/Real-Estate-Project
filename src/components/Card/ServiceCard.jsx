@@ -7,7 +7,7 @@ export default function ServiceCard({label, icon}) {
             <div className='service-card'>
                 {icon}
             </div>
-            <span>{label}</span>
+            <span className='span'>{label}</span>
         </div>
     )
 }

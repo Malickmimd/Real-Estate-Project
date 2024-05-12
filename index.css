@@ -4,6 +4,9 @@
     --secondary-color: #ffea00;
     --secondary-dark:#e3d002;
     --overlay: rgba(0,0,0,.7);
+    --Solidbackgrounds: #0090FF;
+    --Hoveredsolidbackgrounds: #3B9EFF;
+    --UIelementbackground: #E6F4FE;
   }
   
   * {
@@ -58,5 +61,5 @@
     width: 40px;
     height: 3px;
     margin: 5px auto;
-    background-color: var(--primary-color);
+    background-color: var(--Hoveredsolidbackgrounds);
   }

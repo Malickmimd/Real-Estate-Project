@@ -7,7 +7,7 @@
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(13, 40, 71, 0.7);
 }
 
 .header .navbar {
@@ -40,12 +40,12 @@
 
 .nav-item .active {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid var(--Solidbackgrounds);
 }
 
 .header .nav-item a:hover {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid var(--Solidbackgrounds);
     cursor: pointer;
 }
 

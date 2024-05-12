@@ -7,30 +7,31 @@ import { FaMoneyBillAlt } from "react-icons/fa";
 import Offre1 from './assets/Asset3.png'
 import Offre2 from './assets/landingAsset.png'
 import Offre3 from './assets/Asset.png'
+import { colors } from "./styles/color";
 
 export const services = [
     {
-        icon: <FaDollarSign color='red'/>,
+        icon: <FaDollarSign color={colors.light.Solidbackgrounds}/>,
         label: 'Payez aussi peu que possible'
     },
     {
-        icon: <RiCommunityLine color='red'/>,
+        icon: <RiCommunityLine color={colors.light.Solidbackgrounds}/>,
         label: 'Profitez de la sagesse de la communauté'
     },
     {
-        icon: <IoIosCall color='red'/>,
+        icon: <IoIosCall color={colors.light.Solidbackgrounds}/>,
         label: 'Contactez facilement'
     },
     {
-        icon: <RiPlantLine color='red'/>,
+        icon: <RiPlantLine color={colors.light.Solidbackgrounds}/>,
         label: "La tranquilité d'esprit"
     },
     {
-        icon: <MdOutlineSecurity color='red'/>,
+        icon: <MdOutlineSecurity color={colors.light.Solidbackgrounds}/>,
         label: 'Soyez en sécurité, Economisez'
     },
     {
-        icon: <FaMoneyBillAlt color='red' />,
+        icon: <FaMoneyBillAlt color={colors.light.Solidbackgrounds} />,
         label: 'Payez pour ce que vous utilisez'
     },
 ]
